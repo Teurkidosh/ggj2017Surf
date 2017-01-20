@@ -1,0 +1,16 @@
+{
+	"files" : {
+		"fxs" :{
+			"click"					: {"asset":"click", "volume":1}
+		},
+		"musics" :{
+			"levelLoop"			: {"asset":"level_loop", "volume":1},
+			"uiLoop"			: {"asset":"ui_loop", "volume":1}
+		}
+	},
+	"volumes" : {
+		"master" : 1,
+		"fxs" : 1,
+		"musics" : 1
+	}	
+}
