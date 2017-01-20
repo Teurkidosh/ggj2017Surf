@@ -1,6 +1,6 @@
 package com.isartdigital.surf.sound 
 {
-	import com.isartdigital.surf.Shmup;
+	import com.isartdigital.surf.Surf;
 	import com.isartdigital.utils.Config;
 	import com.isartdigital.utils.loader.AssetsLoader;
 	import com.isartdigital.utils.sound.SoundFX;
@@ -32,7 +32,7 @@ package com.isartdigital.surf.sound
 		protected static function init():void{
 			if (!isInit) isInit = true;
 			
-			var lJson : Object = JSON.parse(AssetsLoader.getContent(Shmup.SOUND_PATH).toString());
+			var lJson : Object = JSON.parse(AssetsLoader.getContent(Surf.SOUND_PATH).toString());
 			SoundFX.mainVolume	=	lJson.volumes.master * int(Config.mainSound);
 			
 			var i:String;
@@ -48,7 +48,7 @@ package com.isartdigital.surf.sound
 			var lMusics : Object = lJson.files.musics;
 			
 			for (i in lMusics) {
-				addSound(i, new SoundFX(lMusics[i].asset, (lMusics[i].volume) * lJson.volumes.lMusics));
+				addSound(i, new SoundFX(lMusics[i].asset, (lMusics[i].volume) * lJson.volumes.musics));
 			}
 		}
 		
