@@ -2,6 +2,7 @@ package com.isartdigital.surf.ui
 {
 	import com.isartdigital.surf.controller.Controller;
 	import com.isartdigital.surf.game.GameManager;
+	import com.isartdigital.surf.sound.SoundManager;
 	import com.isartdigital.utils.ui.Screen;
 	import flash.display.SimpleButton;
 	import flash.display.Sprite;
@@ -69,6 +70,7 @@ package com.isartdigital.surf.ui
 		}
 		
 		protected function onClick (pEvent:MouseEvent) : void {
+			SoundManager.getSound("click").start();
 			GameManager.getInstance().start();
 		}
 		

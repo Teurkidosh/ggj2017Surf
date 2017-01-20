@@ -1,5 +1,6 @@
 package com.isartdigital.surf.ui 
 {
+	import com.isartdigital.surf.sound.SoundManager;
 	import com.isartdigital.surf.ui.UIManager;
 	import com.isartdigital.utils.ui.Screen;
 	import flash.display.SimpleButton;
@@ -43,11 +44,13 @@ package com.isartdigital.surf.ui
 				
 		override protected function init (pEvent:Event): void {
 			super.init(pEvent);
+			SoundManager.getSound("uiLoop").loop();
 			btnPlay.addEventListener(MouseEvent.CLICK, onClick);
 		}
 		
 		protected function onClick (pEvent:MouseEvent = null) : void {
 			//Debug.getInstance().clear()
+			SoundManager.getSound("click").start();
 			UIManager.getInstance().addScreen(Help.getInstance());
 		}
 		

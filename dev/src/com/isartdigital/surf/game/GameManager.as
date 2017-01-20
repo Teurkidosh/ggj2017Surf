@@ -4,6 +4,7 @@
 	import com.isartdigital.surf.controller.ControllerKey;
 	import com.isartdigital.surf.controller.ControllerPad;
 	import com.isartdigital.surf.controller.ControllerTouch;
+	import com.isartdigital.surf.sound.SoundManager;
 	import com.isartdigital.surf.ui.GameOver;
 	import com.isartdigital.surf.ui.UIManager;
 	import com.isartdigital.surf.ui.WinScreen;
@@ -64,6 +65,8 @@
 			
 			// TODO: votre code d'initialisation commence ici
 			
+			SoundManager.getSound("uiLoop").stop();
+			SoundManager.getSound("levelLoop").loop();
 			resume();
 		}
 		
