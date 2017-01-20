@@ -27,6 +27,7 @@ package com.isartdigital.surf.ui
 		protected static var instance: TitleCard;
 		
 		public var btnPlay:SimpleButton;
+		public var btnCredit:SimpleButton;
 	
 		public function TitleCard() 
 		{
