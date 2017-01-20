@@ -7,7 +7,13 @@ package com.isartdigital.utils.ui {
 	/**
 	 * Classe d'Ecran
 	 * Toutes Ecrans d'interface héritent de cette classe
-	 * @author Mathieu ANTHOINE
+	 * @author Ludovic BOURGUET
+	 * @author Johann CANG
+	 * @author Thibaut DAMMENMULLER
+	 * @author Kilian DUFOUR
+	 * @author Gregoire LEVILLAIN
+	 * @author Sebastien RAYMONDAUD
+	 * @author Quentin VERNET
 	 */
 	public class Screen extends Sprite 
 	{

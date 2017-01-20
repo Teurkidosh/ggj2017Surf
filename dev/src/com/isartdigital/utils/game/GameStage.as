@@ -7,7 +7,13 @@ package com.isartdigital.utils.game {
 	/**
 	 * Classe en charge de mettre en place la structure graphique du jeu (conteneurs divers)
 	 * et la gestion du redimensionnement de la zone de jeu en fonction du contexte
-	 * @author Mathieu ANTHOINE
+	 * @author Ludovic BOURGUET
+	 * @author Johann CANG
+	 * @author Thibaut DAMMENMULLER
+	 * @author Kilian DUFOUR
+	 * @author Gregoire LEVILLAIN
+	 * @author Sebastien RAYMONDAUD
+	 * @author Quentin VERNET
 	 */
 	public class GameStage extends Sprite 
 	{

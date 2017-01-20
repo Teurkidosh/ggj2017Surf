@@ -15,7 +15,13 @@ package com.isartdigital.utils.loader {
 	/**
 	 * Classe de chargement
 	 * Cette classe permet de gérer des chargements par lot aussi bien de fichiers textes que de ressources swf ou image
-	 * @author Mathieu ANTHOINE
+	 * @author Ludovic BOURGUET
+	 * @author Johann CANG
+	 * @author Thibaut DAMMENMULLER
+	 * @author Kilian DUFOUR
+	 * @author Gregoire LEVILLAIN
+	 * @author Sebastien RAYMONDAUD
+	 * @author Quentin VERNET
 	 */
 	public class AssetsLoader extends Sprite {
 		
