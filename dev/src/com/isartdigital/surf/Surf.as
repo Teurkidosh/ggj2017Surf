@@ -56,7 +56,7 @@ package com.isartdigital.surf
 		 */
 		protected var padInput:GameInput;
 			
-		public function Shmup() 
+		public function Surf() 
 		{
 			super();
 			
@@ -70,8 +70,8 @@ package com.isartdigital.surf
 		 * Retourne l'instance unique de la classe, et la crée si elle n'existait pas au préalable
 		 * @return instance unique
 		 */
-		public static function getInstance (): Shmup {
-			if (instance == null) instance = new Shmup();
+		public static function getInstance (): Surf {
+			if (instance == null) instance = new Surf();
 			return instance;
 		}
 		
