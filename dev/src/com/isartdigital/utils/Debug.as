@@ -19,13 +19,7 @@ package com.isartdigital.utils {
 	 * Classe de Debug
 	 * Peut initialiser un compteur de Fps
 	 * Peut afficher des outils de cheat dans un panneau de cheat à l'aide des différentes méthodes à disposition
-	 * @author Ludovic BOURGUET
-	 * @author Johann CANG
-	 * @author Thibaut DAMMENMULLER
-	 * @author Kilian DUFOUR
-	 * @author Gregoire LEVILLAIN
-	 * @author Sebastien RAYMONDAUD
-	 * @author Quentin VERNET
+	 * @author Mathieu ANTHOINE
 	 */
 	public class Debug extends Sprite 
 	{

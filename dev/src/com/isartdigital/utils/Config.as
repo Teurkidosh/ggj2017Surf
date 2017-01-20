@@ -7,13 +7,7 @@ package com.isartdigital.utils {
 	 * Classe de configuration
 	 * Cette classe contient toutes les variables définies dans le fichier config.json sous forme de propriétés statiques typées.
 	 * Certaines variables existent qu'elles aient été définies ou non dans le fichier. Si elles n'ont pas été définies elles prennent la valeur par défaut de la classe
-	 * @author Ludovic BOURGUET
-	 * @author Johann CANG
-	 * @author Thibaut DAMMENMULLER
-	 * @author Kilian DUFOUR
-	 * @author Gregoire LEVILLAIN
-	 * @author Sebastien RAYMONDAUD
-	 * @author Quentin VERNET
+	 * @author Mathieu ANTHOINE
 	 */
 	public class Config 
 	{

@@ -4,13 +4,7 @@ package com.isartdigital.utils.events
 	
 	/**
 	 * Classe d'Evenements associée à la classe SoundFX.
-	 * @author Ludovic BOURGUET
-	 * @author Johann CANG
-	 * @author Thibaut DAMMENMULLER
-	 * @author Kilian DUFOUR
-	 * @author Gregoire LEVILLAIN
-	 * @author Sebastien RAYMONDAUD
-	 * @author Quentin VERNET
+	 * @author Mathieu ANTHOINE
 	 */
 	public class SoundFXEvent extends Event 
 	{

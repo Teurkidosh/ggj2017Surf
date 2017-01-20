@@ -4,13 +4,7 @@ package com.isartdigital.utils.game
 	import flash.geom.Point;
 	/**
 	 * Classe utilitaire permettant de tester diverses collisions entre boites, formes et points
-	 * @author Ludovic BOURGUET
-	 * @author Johann CANG
-	 * @author Thibaut DAMMENMULLER
-	 * @author Kilian DUFOUR
-	 * @author Gregoire LEVILLAIN
-	 * @author Sebastien RAYMONDAUD
-	 * @author Quentin VERNET
+	 * @author Mathieu ANTHOINE
 	 */
 	public class CollisionManager 
 	{
